@@ -10,7 +10,7 @@ const NavBar = () =>{
         <div>
             <AppBar position="static">
         <Toolbar>
-        <img src={Logo} style={{maxWidth:`50px`}}/>
+        <img src={Logo} alt="" style={{maxWidth:`50px`}}/>
           <Typography variant="h6">
             Pixabay API Image Finder ReactJs ft.Axios
           </Typography>
