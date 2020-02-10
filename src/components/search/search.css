@@ -7,6 +7,7 @@
   font-weight:bold;
   text-align: center;
   margin-bottom: 20px;
+  
   }
   
   .flipit > div > div {
@@ -15,6 +16,7 @@
     height:45px;
     margin-bottom:45px;
     display:inline-block;
+    box-shadow: 10px 10px 43px 19px rgba(0,0,0,0.75);
   }
   
   .flipit div:first-child {
@@ -38,8 +40,8 @@
     38% {margin-top:-90px;}
     66% {margin-top:-90px;}
     71% {margin-top:0px;}
-    99.99% {margin-top:0px;}
+    90% {margin-top:0px;}
     100% {margin-top:-270px;}
-    0% {margin-top:-270px;}
+    
 
   }

@@ -50,7 +50,7 @@ class App extends React.Component {
     </Card>
     <div style={{marginTop:`50px`}}>
     <center>
-    <Typography variant="h4" color="textPrimary" component="h4">
+    <Typography variant="h4" color="Primary" component="h4">
         Search Image by tag in TextField bellow
     </Typography>
     </center>

@@ -9,6 +9,7 @@ class ImagesResults extends React.Component{
 
         if(images){
             ListContent=(
+               
                 <GridList cols={3}>
                     {images.map(img=>(
                         <GridListTile
@@ -26,6 +27,7 @@ class ImagesResults extends React.Component{
                         </GridListTile>
                     ))}
                 </GridList>
+                
             )
         }else{
             ListContent = null;
